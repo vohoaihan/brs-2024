@@ -67,7 +67,7 @@ curl_close($curl);
 `-` CURLOPT_HTTP_VERSION: ```CURL_HTTP_VERSION_1_1```\
 `-` CURLOPT_CUSTOMREQUEST: ```POST```\
 `-` CURLOPT_POSTFIELDS : ```['file': YOUR_CURL_FILE]```\
-`-` CURLOPT_HTTPHEADER : ```['Accept: application/json','Content-type: multipart/form-data','Authorization: Bearer YOUR_TOKEN']```\
+`-` CURLOPT_HTTPHEADER : ```['Accept: application/json','Content-type: multipart/form-data','Authorization: Bearer YOUR_TOKEN']```
 
 The complete code with PHP looks like this:
 ```
